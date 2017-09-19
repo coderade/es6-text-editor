@@ -6,17 +6,17 @@ class App extends Component {
         return (
             <Container>
                 <Column>
-                    <Button>
+                    <Button className="btn btn-primary">
                         New Rule
                     </Button>
                 </Column>
                 <Column>
-                    <Button>
+                    <Button className="btn btn-primary">
                         Random Text
                     </Button>
                     <Document>
                         <Editor/>
-                        <Markup/>
+                        <Markup className="form-control"/>
                     </Document>
                 </Column>
             </Container>
