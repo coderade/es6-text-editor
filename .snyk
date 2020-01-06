@@ -1,0 +1,322 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - react-scripts > eslint-plugin-import > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > react-dev-utils > detect-port-alt > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > spdy > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > serve-index > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > portfinder > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > compression > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > react-dev-utils > sockjs-client > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > sockjs-client > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > eslint-plugin-import > eslint-import-resolver-node > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > spdy > spdy-transport > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > chokidar > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > http-proxy-middleware > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-config > babel-core > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > react-dev-utils > globby > fast-glob > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > http-proxy-middleware > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > http-proxy-middleware > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > http-proxy-middleware > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-jasmine2 > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-config > babel-core > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > react-dev-utils > globby > fast-glob > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > react-dev-utils > globby > fast-glob > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-config > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > react-dev-utils > globby > fast-glob > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > http-proxy-middleware > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > watchpack > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > watchpack > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > watchpack > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > react-dev-utils > globby > fast-glob > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > watchpack > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > watchpack > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-01-06T00:02:08.088Z'
+    - react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2020-01-06T00:02:08.088Z'
