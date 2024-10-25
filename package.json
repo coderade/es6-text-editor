@@ -8,7 +8,7 @@
     "react-dom": "^16.0.1",
     "react-scripts": "3.3.0",
     "styled-components": "^2.1.2",
-    "snyk": "^1.274.0"
+    "snyk": "^1.996.0"
   },
   "scripts": {
     "start": "react-scripts start",
